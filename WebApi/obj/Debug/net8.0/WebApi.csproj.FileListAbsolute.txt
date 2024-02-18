@@ -32,3 +32,14 @@ C:\Users\emrea\Desktop\development\BookStore\WebApi\obj\Debug\net8.0\refint\WebA
 C:\Users\emrea\Desktop\development\BookStore\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\emrea\Desktop\development\BookStore\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\emrea\Desktop\development\BookStore\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\emrea\Desktop\development\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
