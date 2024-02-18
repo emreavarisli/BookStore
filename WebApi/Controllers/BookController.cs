@@ -6,33 +6,33 @@ namespace WebApi.Controllers
     [Route("[controller]s")]
     public class WebApi : ControllerBase
     {
-        private static List<Book> BookList = new List<Book>()
-        {
-            new Book
-            {
-                id = 1,
-                Title = "Lean Startup",
-                GenreId = 1,
-                PageCount = 200,
-                PublishDate = new DateTime(2011,06,12)
-            },
-            new Book
-            {
-                id = 2,
-                Title = "Herlang",
-                GenreId = 2,
-                PageCount = 250,
-                PublishDate = new DateTime(2010,05,12)
-            },
-            new Book
-            {
-                id = 3,
-                Title = "Dune",
-                GenreId = 2,
-                PageCount = 540,
-                PublishDate = new DateTime(2001,12,21)
-            },
-        };
+        // private static List<Book> BookList = new List<Book>()
+        // {
+        //     new Book
+        //     {
+        //         id = 1,
+        //         Title = "Lean Startup",
+        //         GenreId = 1,
+        //         PageCount = 200,
+        //         PublishDate = new DateTime(2011,06,12)
+        //     },
+        //     new Book
+        //     {
+        //         id = 2,
+        //         Title = "Herlang",
+        //         GenreId = 2,
+        //         PageCount = 250,
+        //         PublishDate = new DateTime(2010,05,12)
+        //     },
+        //     new Book
+        //     {
+        //         id = 3,
+        //         Title = "Dune",
+        //         GenreId = 2,
+        //         PageCount = 540,
+        //         PublishDate = new DateTime(2001,12,21)
+        //     },
+        // };
 
         [HttpGet]
         public List<Book> GetBooks()

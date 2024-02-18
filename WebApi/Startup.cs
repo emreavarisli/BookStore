@@ -15,11 +15,15 @@ namespace BookStore
 
         public IConfiguration Configuration { get; }
 
-        // Bu yöntem hizmetlerin yapılandırılması için kullanılır.
         public void ConfigureServices(IServiceCollection services)
         {
-            // ASP.NET Core MVC'yi eklemek için
-            services.AddControllersWithViews();
+            services.AddControllers();
+            services.AddSwaggerGenic =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo(Title = "WebApi", Version = "v1"));
+            });
+
+            services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase(databaseName: "BookStoreDB"));
         }
 
         // Bu yöntem HTTP istekleri işlerken kullanılacak middleware bileşenlerini yapılandırmak için kullanılır.
@@ -28,11 +32,8 @@ namespace BookStore
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1"));
             }
 
             app.UseHttpsRedirection();
