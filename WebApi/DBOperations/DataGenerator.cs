@@ -18,7 +18,7 @@ namespace WebApi.DBOperations
                 context.Books.AddRange(
                     new Book
                     {
-                        id = 1,
+                        //id = 1,
                         Title = "Lean Startup",
                         GenreId = 1,
                         PageCount = 200,
@@ -26,7 +26,7 @@ namespace WebApi.DBOperations
                     },
                     new Book
                     {
-                        id = 2,
+                        //id = 2,
                         Title = "Herlang",
                         GenreId = 2,
                         PageCount = 250,
@@ -34,7 +34,7 @@ namespace WebApi.DBOperations
                     },
                     new Book
                     {
-                        id = 3,
+                        //id = 3,
                         Title = "Dune",
                         GenreId = 2,
                         PageCount = 540,

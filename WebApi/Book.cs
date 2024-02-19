@@ -2,6 +2,7 @@ namespace WebApi
 {
     public class Book
     {
+        [DatabaseGenerate(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
         public int Id { get; set; }
         public string Title { get; set; }
